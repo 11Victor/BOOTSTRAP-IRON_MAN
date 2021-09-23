@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap</title>
+  <title>IRON MAN</title>
+  <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/superheroes/512/ironman-128.png" />
   <link rel="stylesheet" href="assets/styles/style.css">
 
   <!--Link para pegar o CSS no servidor do Bootstrap-->
@@ -14,22 +15,31 @@
 </head>
 
 <body>
+
+<div class="center"> 
   <!--NavBar-->
+
+<div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
     <a class="navbar-brand" href="#">
-      <img src="https://static.thenounproject.com/png/843695-200.png" width="30" height="30" class="d-inline-block align-top" alt="">
       
-    </a>
-    <a class="navbar-brand text-warning" href="#">IRON MAN</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    </a>
     
-
     <div class="navbar-brand collapse navbar-collapse" id="navbarSupportedContent" >
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="navbar-brand" href="#">
+            <img src="https://static.thenounproject.com/png/843695-200.png" width="30" height="30" class="d-inline-block align-top" alt=""> 
+          </a>
+        </li>
         <li class="nav-item active">
+          <a class="nav-link text-warning" href="#">IRON MAN</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -48,10 +58,10 @@
       </form>
     </div>
   </nav>
-
+</div>
 
   <!--Carousel-->
-
+<div class="container-fluid">
   <div class="">
     <div class="row">
       <div class="col-md-12">
@@ -88,7 +98,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
 
 
@@ -97,7 +107,7 @@
 
   <!--Fluid Jumbotron-->
   <div class="jumbotron jumbotron-fluid text-warning bg-danger ">
-    <div class="container">
+    <div class="container-fluid">
       <h1 class="display-4">IRON MAN</h1>
       <p class="lead">"Minha armadura, nunca foi uma distração ou um hobby, foi um casulo. E agora, eu sou outro homem. Você pode tirar minha casa, todos os meus truques e brinquedos. Mas uma coisa você não pode tirar ... Eu sou o homem de Ferro." ― Tony Stark</p>
     </div>
@@ -105,6 +115,7 @@
 
 
 <!--Cards-->
+<div class="container-fluid">
 <div class="card-deck">
   <div class="card text-dark bg-warning">
     <img class="card-img-top" src="https://images.hdqwalls.com/wallpapers/thumb/iron-man-fly-ot.jpg" alt="Card image cap">
@@ -137,11 +148,12 @@
     </div>
   </div>
 </div>
+</div>
 
 <!--Formulário-->
 <div style="padding-top:50%;">
 <div class="jumbotron jumbotron-fluid text-dark bg-primary ">
-  <div class="container">
+  <div class="container-fluid">
     <h1 class="display-4">ENTRE EM CONTATO COMIGO</h1>
     <form class="needs-validation" novalidate>
       <div class="form-row">
@@ -236,8 +248,8 @@
 
 
     <!--Texto e Vídeo-->
-    <div class="container">
-      <div class="row mt-5 mb-5">
+    <div class="container-fluid">
+      <div class="row mt-5 mb-5 container-fluid">
         <div class="col-md-6 font">
           <h3 class="text-primary">BIOGRAFIA</h3>
           <p class="text-info">Anthony Edward "Tony" Stark era um industrial bilionário, membro fundador dos Vingadores e ex-CEO da Stark Industries . Um inventor impetuoso, mas brilhante, Stark se autodescreveu como um gênio, bilionário, playboy e filantropo.</p>
@@ -245,7 +257,7 @@
           <p class="text-info">Com sua vida em jogo, Stark criou um traje blindadoque ele usou para escapar de seus captores. Ao voltar para casa, ele utilizou várias outras armaduras para usar contra terroristas, bem como Obadiah Stane, que se voltou contra Stark. Stark gostou da fama que veio com sua nova identidade secreta e decidiu compartilhá-la com o mundo, revelando-se publicamente como o Homem de Ferro .</p>
         </div>
         <div class="col-md-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/AW3-SuBZRt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="d-block w-100 h-100" src="https://www.youtube.com/embed/AW3-SuBZRt0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
   
       </div>
@@ -257,8 +269,8 @@
 
 
   <nav class="navbar bottom bg-warning">
-    <a class="navbar-brand" href="#">
-      <div class="container">
+    <a class="" href="#">
+      <div class="container-fluid">
         <footer class="text-center col-md-12">
 
           <div class="redesocial">
@@ -297,8 +309,7 @@
   </nav>
 
 
-
-
+</div>
 
 
   <!--Jquery - Popper.js - Bootstrap-->

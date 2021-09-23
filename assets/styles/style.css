@@ -1,5 +1,6 @@
 body{
   background-image: url(img/546689.jpg);
+  background-position-x: center;
   background-repeat: no-repeat; /* Para não repetir a imagem*/
   background-size: cover; /* Para a imagem cobrir a página inteira*/
   background-attachment: fixed; /* Ao rolar a pagina a imagem fica parada*/
